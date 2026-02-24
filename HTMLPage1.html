@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Metadatos -->
+    <meta name="description" content="Blog dedicado al manga Punpun">
+    <meta name="keywords" content="Punpun, manga, Inio Asano">
+    <meta name="author" content="Me">
+
+    <title>Blog Punpun</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(120deg, #111, #222);
+            color: #f0f0f0;
+        }
+
+        .contenedor {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            letter-spacing: 3px;
+        }
+
+        header img {
+            width: 200px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+        }
+
+        nav {
+            background-color: #2b2b2b;
+            border-radius: 40px;
+            padding: 15px 30px;
+            margin-bottom: 40px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffcc70;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffd98f;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 30px;
+        }
+
+        section, aside {
+            background-color: #2a2a2a;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+        }
+
+        section h2 {
+            margin-top: 0;
+            color: #ffcc70;
+        }
+
+        /* BOTÓN DE INTERÉS */
+        .boton-interes {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 28px;
+            background-color: #ffcc70;
+            color: #1a1a1a;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .boton-interes:hover {
+            background-color: #ffd98f;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 800px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <!-- Cabecera -->
+        <header>
+            <h1>Punpun</h1>
+            <img src="polla.jpg" alt="Imagen de Punpun">
+        </header>
+
+        <!-- Menú -->
+        <nav>
+            <ul>
+                <li><a href="Pagina/inicio.html">Inicio</a></li>
+                <li><a href="Pagina/tipos de punpun.html">Tipos de Punpun</a></li>
+                <li><a href="Pagina/tomos de punpun.html">Tomos de Punpun</a></li>
+                <li><a href="Pagina/De interes.html">De interes</a></li>
+            </ul>
+        </nav>
+
+        <!-- Contenido -->
+        <main>
+            <section>
+                <h2>Bienvenido</h2>
+                <p>
+                    Este blog está dedicado al manga <strong>Punpun</strong>.
+                    Aquí encontrarás información sobre sus tomos, sus diferentes
+                    representaciones y análisis de la obra.
+                </p>
+            </section>
+
+            <aside>
+                <h2>Extra</h2>
+                <p>Curiosidades, enlaces y contenido adicional.</p>
+            </aside>
+        </main>
+
+        <!-- Pie -->
+        <footer>
+            <p>&copy; 2026 · Blog Punpun</p>
+ 

@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tomos de Punpun</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(120deg, #101010, #202020);
+            color: #eaeaea;
+        }
+
+        .mierdapun {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            color: #d0d0d0;
+        }
+
+        img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 22px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 45px rgba(0,0,0,0.8);
+        }
+
+        /* BOTÓN INICIO */
+        .boton-inicio {
+            display: inline-block;
+            margin-top: 50px;
+            padding: 14px 32px;
+            background-color: #ffcc70;
+            color: #1a1a1a;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .boton-inicio:hover {
+            background-color: #ffd98f;
+            transform: scale(1.08);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.3rem;
+            }
+
+            p {
+                font-size: 1.05rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mierdapun">
+        <h1>Tomos de Punpun</h1>
+
+        <p>
+            Podemos observar aquí todos los tomos de <strong>Punpun</strong> que se venden en España.
+            Cada uno presenta un color diferente, el cual representa una etapa concreta de la vida
+            del protagonista.
+        </p>
+
+        <img src="tomos.png" alt="Tomos del manga Punpun">
+
+        <!-- BOTÓN INICIO -->
+        <a href="../HTMLPage1.html" class="boton-inicio">← Volver al inicio</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+<head>
+    <meta charset="utf-8" />
+    <title> </title>
+    </head>
+
+    <body>
+        <hi>MIS TAREAS</hi>
+        <a href="Tareas/T1viajes.html" target="_blank">tarea viajes</a>
+        <br>
+        <a href="TAREAS/T2ETIQUETAS.html" target="_blank" >tarea etiquetas</a>
+        <br>
+        <a href="Tareas/T3poema.html" target="_blank">tarea poema</a>
+        <br>
+        <a herf="TAREAS/T4deseos.html" target="_blank">tarea lista de deseos</a>
+    </body>

@@ -1,0 +1,21 @@
+﻿.contenedor 
+{
+	width:1200px;
+	background-color:#c8c8c8;
+	border-radius:30px;
+	margin: 10px;
+}
+img
+{
+	/*width: 80%;*/
+	}
+	header
+	{
+		/*width:95%;*/
+		margin: 10px;
+		color: red;
+		}
+		header img
+		{
+			width:100%
+			}
